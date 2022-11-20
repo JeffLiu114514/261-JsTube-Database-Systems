@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> Homepage </title>
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="user-video.css">
+    <meta content="" name="current-user">
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li class="home"><a href="user-home.html" class="home">Homepage</a></li>
+            <li class="myvideo"><a href="user-video.html" class="myvideo">My videos</a></li>
+            <li class="history"><a href="user-history.html" class="history">View History</a></li>
+            <li class="settings"><a href="settings.html" class="settings">Settings</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1 id="username">My Videos</h1>
+        <table id="video">
+        </table>
+    </div>
+    <!-- <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'user-home.php?get=name', true);
+
+        xhr.onload = function() {
+            document.getElementById("username").innerHTML = xhr.responseText;
+            console.log(xhr)
+        }
+        xhr.send();
+    </script> -->
+    <script src="user-video.js"></script> 
+</body>

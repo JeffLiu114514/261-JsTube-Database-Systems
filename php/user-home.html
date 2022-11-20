@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> Homepage </title>
+    <link rel="stylesheet" href="root.css">
+    <!-- <link rel="stylesheet" href="login.css"> -->
+    <meta name="current-user" content="<?= htmlspeacialchars() ?>">
+</head>
+
+<body>
+    <script>
+        var username = document.querySelector('meta[name="current-user"]').content;
+        var h1 = document.getElementById('p1');
+        h1.innerText = username;
+    </script>
+    <div class="nav">
+        <ul>
+            <li><a href="user-home.html">Homepage</a></li>
+            <li><a href="video.html">My videos</a></li>
+            <li><a href="view_history.php">View History</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+    </div>
+    <div class="containt">
+        <h1 id="username"></h1>
+    </div>
+    
+</body>

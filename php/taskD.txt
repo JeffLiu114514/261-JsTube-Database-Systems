@@ -1,0 +1,3 @@
+1. view_table.php:
+show tables of our database
+describe the attributes of each table

@@ -1,0 +1,10 @@
+Address on betaweb: http://betaweb.csug.rochester.edu/~jlu54/
+
+The link to view the content of each relation/table is in the lower middle part of the home page(the link above).
+
+Contributions:
+TaskA: Junfei Liu, Jinghao Jiang, Jinghan Lu
+TaskB: Jinghao Jiang, Jinghan Lu
+TaskC: Jinghao Jiang, Jinghan Lu
+TaskD: Junfei Liu, Jinghao Jiang, Jinghan Lu
+

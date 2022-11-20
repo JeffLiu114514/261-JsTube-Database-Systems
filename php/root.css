@@ -1,0 +1,8 @@
+:root{
+    --gredient-low: rgb(123, 153, 253);
+    --gredient-high: rgb(205, 199, 255);
+    --theme-color: rgb(195, 194, 255);
+    --theme-color-dark: rgb(177, 176, 251);
+    --light-grey: rgb(170, 170, 170);
+    --highlight: rgb(214, 214, 251);
+}
